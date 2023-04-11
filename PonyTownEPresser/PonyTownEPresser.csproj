@@ -5,6 +5,25 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <ApplicationIcon>ptep_MWq_icon.ico</ApplicationIcon>
+    <Company>stitchiu</Company>
+    <Title>Pony Town 'E' Key Presser</Title>
+    <Description>This is a simple program that repeatedly presses E for use in Pony Town (and any other game where you'd need to repeatedly press E). This was made to make the egg hunt event less annoying.</Description>
+    <Copyright>stitchiu</Copyright>
+    <PackageProjectUrl>https://github.com/smolyoshino/PonyTownEPresser</PackageProjectUrl>
+    <PackageIcon>PTEP.png</PackageIcon>
+    <RepositoryUrl>https://github.com/smolyoshino/PonyTownEPresser</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="ptep_MWq_icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="H:\Misc-Files\PTEP.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

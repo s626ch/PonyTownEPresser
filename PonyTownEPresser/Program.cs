@@ -17,6 +17,7 @@ public class Program
 
     public static void Main()
     {
+        Console.Title = "Pony Town 'E' Presser";
         Console.SetWindowSize(64, 3); // Only on Windows, lolololo
         Console.WriteLine("");
         Console.WriteLine("                  Press F7 to toggle pressing E.");
