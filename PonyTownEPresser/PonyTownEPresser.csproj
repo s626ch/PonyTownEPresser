@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="H:\Misc-Files\PTEP.png">
+    <None Include="PTEP.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
